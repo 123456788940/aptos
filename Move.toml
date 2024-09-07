@@ -1,0 +1,20 @@
+[package]
+name = 'my_payment_system'
+version = '1.0.0'
+
+[dev-dependencies]
+# Include dependencies if needed for development
+# e.g., aptos-std or other libraries
+
+[addresses]
+# Define the address for the module and any other relevant addresses
+my_payment_system = '0x154f3ef7bf2886621959a2b118b95c99944b76af28e084755fe8391763613737'
+payment = '0x154f3ef7bf2886621959a2b118b95c99944b76af28e084755fe8391763613737'
+
+[test]
+# Include test files and configurations
+test_files = [
+    "tests/tests.move"  # Path to your test file
+]
+
+# Additional test configuration if needed
